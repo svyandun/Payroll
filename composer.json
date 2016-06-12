@@ -1,0 +1,26 @@
+{
+    "name": "svyandun/payroll",
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "squizlabs/php_codesniffer": "^2.6"
+    },
+    "authors": [
+        {
+            "name": "Sebastián Yandún",
+            "email": "svyandun@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Payroll\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Payroll\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
