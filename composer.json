@@ -22,5 +22,8 @@
     },
     "scripts": {
         "test": "phpunit"
+    },
+    "require": {
+        "nesbot/carbon": "^1.21"
     }
 }
